@@ -1,0 +1,69 @@
+name: Test notebooks
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches:
+    - main
+  pull_request:
+  # schedule:
+  #   # runs every day at 00:00 UTC
+  #   - cron:  '0 0 * * *'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: Set up Conda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: festim-surface-kinetics-vv-env
+          miniforge-version: latest
+          environment-file: environment.yml
+          use-mamba: true
+          channels: conda-forge
+
+      - name: Run D_damangedW
+        working-directory: D_damangedW
+        shell: bash -l {0}
+        run: |
+          jupyter-nbconvert --to python D_damagedW.ipynb
+          conda run python D_damagedW.py
+
+      - name: Run D_EUROFER
+        working-directory: D_EUROFER
+        shell: bash -l {0}
+        run: |
+          jupyter-nbconvert --to python D_in_EUROFER.ipynb
+          conda run python D_in_EUROFER.py
+
+      - name: Run D_WO
+        working-directory: D_WO
+        shell: bash -l {0}
+        run: |
+          jupyter-nbconvert --to python D_WO.ipynb
+          conda run python D_WO.py
+      
+      - name: Run H_Ti
+        working-directory: H_Ti
+        shell: bash -l {0}
+        run: |
+          jupyter-nbconvert --to python H_Ti.ipynb
+          conda run python H_Ti.py
+
+      - name: Run MMS
+        working-directory: MMS
+        shell: bash -l {0}
+        run: |
+          jupyter-nbconvert --to python MMS.ipynb
+          conda run python MMS.py

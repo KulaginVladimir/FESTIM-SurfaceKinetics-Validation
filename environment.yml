@@ -10,5 +10,6 @@ dependencies:
   - sympy
   - scipy
   - pandas
+  - nbconvert
   - pip:
     - git+https://github.com/festim-dev/FESTIM.git@02f79ade39ce5b7b6168d9b8f65fa49de55db74e
