@@ -33,8 +33,8 @@ jobs:
           use-mamba: true
           channels: conda-forge
 
-      - name: Run D_damangedW
-        working-directory: D_damangedW
+      - name: Run D_damagedW
+        working-directory: D_damagedW
         shell: bash -l {0}
         run: |
           jupyter-nbconvert --to python D_damagedW.ipynb
