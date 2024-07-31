@@ -13,4 +13,4 @@ dependencies:
   - nbconvert
   - ipykernel  # needed to run jupyter notebooks
   - pip:
-    - festim
+    - festim=1.3
