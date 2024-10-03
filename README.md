@@ -1,5 +1,8 @@
 # FESTIM-SurfaceKinetics-Validation
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KulaginVladimir/FESTIM-SurfaceKinetics-Validation/HEAD)
+
+
 ## Overview
 
 This repository contains scripts for V&V of the kinetic surface model implemented in FESTIM.
