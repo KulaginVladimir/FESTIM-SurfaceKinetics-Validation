@@ -68,9 +68,9 @@ jobs:
           jupyter-nbconvert --to python MMS.ipynb
           conda run python MMS.py
 
-      - name: Run additional
+      - name: Run supplementary
         working-directory: Additional_figures
         shell: bash -l {0}
         run: |
-          jupyter-nbconvert --to python potential_energy_diagram.ipynb
-          conda run python potential_energy_diagram.py
+          jupyter-nbconvert --to python figures.ipynb
+          conda run python figures.py
