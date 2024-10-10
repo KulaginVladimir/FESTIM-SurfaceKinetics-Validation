@@ -44,8 +44,8 @@ jobs:
         working-directory: D_EUROFER
         shell: bash -l {0}
         run: |
-          jupyter-nbconvert --to python D_in_EUROFER.ipynb
-          conda run python D_in_EUROFER.py
+          jupyter-nbconvert --to python D_EUROFER.ipynb
+          conda run python D_EUROFER.py
 
       - name: Run D_WO
         working-directory: D_WO
@@ -67,3 +67,10 @@ jobs:
         run: |
           jupyter-nbconvert --to python MMS.ipynb
           conda run python MMS.py
+
+      - name: Run supplementary
+        working-directory: Additional_figures
+        shell: bash -l {0}
+        run: |
+          jupyter-nbconvert --to python figures.ipynb
+          conda run python figures.py

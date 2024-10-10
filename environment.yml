@@ -9,9 +9,11 @@ dependencies:
   - scipy==1.12.0
   - sympy
   - scipy
-  - pandas
   - nbconvert
   - ipykernel  # needed to run jupyter notebooks
   - pip:
     - festim==1.3
-    - h-transport-materials==0.16
+    - h-transport-materials==0.17
+    - pypalettes
+    - matplotx
+    - pyenergydiagrams
