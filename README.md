@@ -1,6 +1,6 @@
 # FESTIM-SurfaceKinetics-Validation
 
-![zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.14036908.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14036909.svg)](https://doi.org/10.5281/zenodo.14036909)
 
 ## Overview
 
