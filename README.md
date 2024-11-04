@@ -1,5 +1,7 @@
 # FESTIM-SurfaceKinetics-Validation
 
+![zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.14036908.svg)
+
 ## Overview
 
 This repository contains scripts for V&V of the kinetic surface model implemented in FESTIM.
@@ -20,7 +22,13 @@ The repository includes several validation cases and one verification test on th
 
 ## How to use
 
-Jupyter books in folders can be inspected online with Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KulaginVladimir/FESTIM-SurfaceKinetics-Validation/HEAD)
+### Cloud
+
+Jupyter notebooks can be run in the browser with [Binder](https://mybinder.org/v2/gh/KulaginVladimir/FESTIM-SurfaceKinetics-Validation/HEAD):
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KulaginVladimir/FESTIM-SurfaceKinetics-Validation/HEAD)
+
+### Locally
 
 For a local use, clone this repository to your local machine.
 
