@@ -1,5 +1,7 @@
 # FESTIM-SurfaceKinetics-Validation
 
+![zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.14036908.svg)
+
 ## Overview
 
 This repository contains scripts for V&V of the kinetic surface model implemented in FESTIM.
