@@ -48,7 +48,7 @@ This will set up a Conda environment named `festim-surface-kinetics-vv-env` with
 Navigate to the desired case folder and run the Jupyter books using the activated Conda environment.
 
 > [!NOTE]  
-> LaTeX is required to reproduce paper-quality figures. To install required dependencies run the following command in your terminal:
+> LaTeX is required to reproduce paper-quality figures. To install required dependencies, run the following command in your terminal:
 > ```
 > sudo apt-get install dvipng texlive-latex-extra texlive-fonts-recommended cm-super
 > ```
