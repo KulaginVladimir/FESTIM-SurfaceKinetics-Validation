@@ -14,9 +14,9 @@ The repository includes several validation cases and one verification test on th
 
 [2] [D adsorption on oxidised W](./D_WO): The case reproduces simulation results of [E. A. Hodille et al.](https://iopscience.iop.org/article/10.1088/1741-4326/ad2a29) on the D adsorption/desorption on/from oxidised W. The simulations are based on experiments performed by [A. Dunand et al.](https://iopscience.iop.org/article/10.1088/1741-4326/ac583a)
 
-[3] [D implantation in damaged W](./D_damagedW): The case reproduces simulation results of [E. A. Hodille et al.](https://iopscience.iop.org/article/10.1088/1741-4326/aa5aa5/meta) on the isothermal D implantation in self-damaged W, followed by isothermal desorption. The simulations are based on experiments performed by [S. Markelj et al.](https://www.sciencedirect.com/science/article/pii/S0022311515303470?via%3Dihub)
+[3] [D atom exposure of self-damaged W](./D_damagedW): The case reproduces simulation results of [E. A. Hodille et al.](https://iopscience.iop.org/article/10.1088/1741-4326/aa5aa5/meta) on the isothermal D implantation in self-damaged W, followed by isothermal desorption. The simulations are based on experiments performed by [S. Markelj et al.](https://www.sciencedirect.com/science/article/pii/S0022311515303470?via%3Dihub)
 
-[4] [D implantation in damaged EUROFER](./D_EUROFER): The case reproduces experimental results of [K. Schmid et al.](https://www.sciencedirect.com/science/article/pii/S2352179122002228) on the D implantation in damaged EUROFER, followed by TDS measurements. The FESTIM model is mainly based on the simulations of [K. Schmid et al.](https://www.sciencedirect.com/science/article/pii/S2352179123001333?via%3Dihub)
+[4] [D implantation in W-damaged EUROFER](./D_EUROFER): The case reproduces experimental results of [K. Schmid et al.](https://www.sciencedirect.com/science/article/pii/S2352179122002228) on the D implantation in damaged EUROFER, followed by TDS measurements. The FESTIM model is mainly based on the simulations of [K. Schmid et al.](https://www.sciencedirect.com/science/article/pii/S2352179123001333?via%3Dihub)
 
 [5] [MMS](./MMS) test
 
