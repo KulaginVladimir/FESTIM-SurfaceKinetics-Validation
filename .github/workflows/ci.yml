@@ -69,8 +69,8 @@ jobs:
           conda run python MMS.py
 
       - name: Run supplementary
-        working-directory: Additional_figures
+        working-directory: pe_diagram
         shell: bash -l {0}
         run: |
-          jupyter-nbconvert --to python figures.ipynb
-          conda run python figures.py
+          jupyter-nbconvert --to python diagram.ipynb
+          conda run python diagram.py
