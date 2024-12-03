@@ -6,6 +6,8 @@
 
 This repository contains scripts for V&V of the kinetic surface model implemented in FESTIM.
 
+:page_with_curl: Find the associated pre-print [here](https://arxiv.org/abs/2411.16474v1).
+
 ## Cases
 
 The repository includes several validation cases and one verification test on the MMS basis.
